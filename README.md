@@ -1,5 +1,5 @@
 # iot-433mhz-client
-:video_game: CLI tool for the iot-433mhz system.
+:video_game: CLI tool for the [iot-433mhz](https://github.com/roccomuso/iot-433mhz) system.
 
 
 [![Standard - JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
@@ -11,6 +11,12 @@
 or
 
     $ npm install --save iot-433mhz-client
+
+## Debug
+
+Using [debug](https://github.com/visionmedia/debug) module, just set an env var before execution:
+
+    $ DEBUG=iot-433mhz-client:*
 
 # Standalone Usage
 
