@@ -1,0 +1,35 @@
+{
+  "name": "iot-433mhz-client",
+  "version": "1.0.0",
+  "description": "CLI tool for the io-433mhz system",
+  "main": "index.js",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "standard && nsp check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roccomuso/iot-433mhz-client.git"
+  },
+  "keywords": [
+    "cli",
+    "tool",
+    "iot",
+    "iot-433mhz",
+    "433mhz",
+    "domotica"
+  ],
+  "author": "Rocco Musolino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roccomuso/iot-433mhz-client/issues"
+  },
+  "homepage": "https://github.com/roccomuso/iot-433mhz-client#readme",
+  "devDependencies": {
+    "nsp": "^2.6.2",
+    "standard": "^8.6.0"
+  },
+  "dependencies": {
+    "request": "^2.79.0"
+  }
+}
