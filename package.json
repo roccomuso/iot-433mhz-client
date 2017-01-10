@@ -4,6 +4,9 @@
   "description": "CLI tool for the io-433mhz system",
   "main": "index.js",
   "preferGlobal": true,
+  "bin": {
+    "iot": "./bin/iot"
+  },
   "scripts": {
     "test": "standard && nsp check"
   },
@@ -30,6 +33,9 @@
     "standard": "^8.6.0"
   },
   "dependencies": {
-    "request": "^2.79.0"
+    "debug": "^2.6.0",
+    "request": "^2.79.0",
+    "validator": "^6.2.1",
+    "yargs": "^6.6.0"
   }
 }
