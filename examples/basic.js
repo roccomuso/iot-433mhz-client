@@ -17,18 +17,7 @@ iot.getCardsList({type: 'alarm'}).then(function(cards){
 
 iot.getCard('card-name').then(function(card){
   console.log(card)
-}, function(err){
-  console.error(err)
-})
-
-iot.toggleSwitch('card-name').then(function(card){
-  console.log(card)
-}, function(err){
-  console.error(err)
-})
-
-iot.setSwitch('card-name', false).then(function(card){
-  console.log(card)
+  card.off()
 }, function(err){
   console.error(err)
 })
