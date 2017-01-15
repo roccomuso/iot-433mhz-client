@@ -11,6 +11,9 @@ var iot = new IotClient({
 
 iot.getCardsList({type: 'alarm'}).then(function(cards){
   // { "CardShortname": {CardObj}, ...}
+  cards['shortname'].getType(function (err, type){
+    console.log(type)
+  })
 }, function(err){
   console.log(err)
 })
